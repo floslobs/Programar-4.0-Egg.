@@ -1,0 +1,17 @@
+div.col-md-8{
+    text-align: center;
+    background-color: rgb(235, 220, 220);
+}
+button.btn.btn-primary{
+    border-style: none;
+    color: black;
+    background-color: rgb(242, 253, 79);
+    margin: 0%;
+}
+button.btn-danger{
+    background-color: rgb(24, 219, 50);
+    color: black;
+}
+div.col-md-8{
+
+}

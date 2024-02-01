@@ -1,0 +1,17 @@
+//. Crea una aplicación que nos pida un día de la semana y que nos diga si es un dia laboral o 
+//no.
+
+Algoritmo sin_titulo
+	
+	definir dia como cadena;
+	
+	Escribir "ingrese un dia de la semana";
+	leer dia;
+	
+	Si dia == "lunes" o dia == "martes" o dia == "miercoles" o dia == "jueves" o dia == "viernes" Entonces
+		Escribir "el dia " dia " es dia laboral"
+	SiNo 
+		Escribir "el dia " dia " no es laboral"
+	Fin Si
+	
+FinAlgoritmo

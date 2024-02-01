@@ -1,0 +1,19 @@
+//Hacer un programa que ingrese por teclado un número total de segundos y que luego 
+//	pueda mostrar la cantidad de horas, minutos y segundos que existen en el valor 
+//	ingresado
+
+
+Algoritmo sin_titulo
+	
+	definir seg, hs, min como real;
+	
+	escribir "ingrese cantidad de segundos";
+	leer seg;
+	
+	hs = seg / 3600
+	min = seg / 60
+	
+	escribir "horas--" hs 
+	Escribir "minutos--" min 
+	Escribir "segundos--" seg
+FinAlgoritmo

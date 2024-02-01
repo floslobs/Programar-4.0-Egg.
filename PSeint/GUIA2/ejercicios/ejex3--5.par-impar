@@ -1,0 +1,22 @@
+//Solicitar al usuario que ingrese dos números enteros y determinar si ambos son pares o 
+//	impares. Mostrar en pantalla un mensaje que indique "Ambos números son pares" siempre 
+//	y cuando cumplan con la condición. En caso contrario se deberá imprimir el siguiente 
+//	mensaje "Los números no son pares, o uno de ellos no es par".
+//Nota: investigar la función mod de PseInt
+
+
+Algoritmo sin_titulo
+	
+	definir num1, num2 Como Entero;
+	
+	Escribir "ingrese dos numeros enteros";
+	leer num1;
+	Leer num2;
+	
+	Si (num1 mod 2 == 0) Y (num2 mod 2 == 0) Entonces
+		Escribir "LOS NUMEROS SON PAR"
+	SiNo
+		Escribir "LOS NUMEROS NO SON PAR, O UNO DE ELLOS NO ES PAR"
+	Fin Si
+	
+FinAlgoritmo

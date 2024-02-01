@@ -1,0 +1,20 @@
+//Escribir un programa que calcule cuántos litros de combustible consumió un automóvil. El 
+//usuario ingresará una cantidad de litros de combustible cargados en la estación y una 
+//cantidad de kilómetros recorridos, después, el programa calculará el consumo (km/lt) y se lo 
+//mostrará al usuario.
+
+Algoritmo sin_titulo
+	
+	Definir litros, kilometros, litrosC Como real;
+	
+	escribir " ingrese cantidad de litros de combustibles "
+	leer litros;
+	Escribir "ingrese cantidad de kilometrso recorridos"
+	leer kilometros;
+	
+	litrosC = kilometros / litros;
+	
+	escribir "la cantidad de litros de conbustibes consumidos es: " litrosC;
+	
+	
+FinAlgoritmo

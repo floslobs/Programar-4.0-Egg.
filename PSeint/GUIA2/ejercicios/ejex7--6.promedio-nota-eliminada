@@ -1,0 +1,42 @@
+//El promedio de los trabajos prácticos de un curso se calcula en base a cuatro notas de las 
+//cuales se elimina la nota menor y se promedian las tres notas más altas. Escriba un 
+//programa que determine cuál es la nota eliminada y el promedio de los trabajos prácticos 
+//de un estudiante
+
+Algoritmo sin_titulo
+	
+	definir n1, n2, n3, n4, prom, nE Como Real;
+	
+	Escribir "ingrese las notas de los trabajos practicos"
+	Leer n1;
+	Leer n2;
+	Leer n3;
+	Leer n4;
+	
+	Si n1 < n2 y n1 < n3 y n1 < n4 Entonces
+		nE = n1
+	SiNo
+		
+		Si n2 < n1 y n2 < n3 y n2 < n4 Entonces
+			nE = n2
+		SiNo
+			
+			Si n3 < n1 y n3 < n2 y n3 < n4 Entonces
+				nE = n3
+			SiNo
+				
+				Si n4 < n1 y n4 < n3 y n4 < n2 Entonces
+					nE = n4
+				FinSi
+				
+			FinSi
+			
+		Fin Si
+	FinSi
+	
+	prom = (n1 + n2 + n3 + n4 - nE ) / 3
+	
+	Escribir "el promedio es: " prom;
+	Escribir "la nota eliminada es: " nE;
+	
+FinAlgoritmo

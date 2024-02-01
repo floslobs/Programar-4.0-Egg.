@@ -1,0 +1,19 @@
+//Mostrar el área y perímetro de un rombo.
+
+Algoritmo sin_titulo
+	
+	
+	definir d1, d2, area, perimetro, lado Como Real;
+	
+	Escribir "ingrese longitud de la diagonal mayor del rombo"
+	leer d1;
+	Escribir "ingrese longitud de la digonal menor del rombo"
+	Leer d2;
+	
+	lado = Raiz((d1 / 2)^2 + (d2 / 2)^2);
+	area = (d1 * d2) / 2;
+	perimetro = 4 * lado;
+	
+	Escribir "el area del rombo es: " area;
+	Escribir "el perimetro del rombo es: " perimetro;
+FinAlgoritmo

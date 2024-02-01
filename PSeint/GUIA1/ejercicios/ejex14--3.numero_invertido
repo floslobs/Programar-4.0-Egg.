@@ -1,0 +1,24 @@
+
+
+
+Algoritmo sin_titulo
+	
+	Definir num, cifra1, cifra2, numeroInvertido Como real
+    Escribir "Ingrese un número de dos cifras: "
+    Leer num
+    
+    // Verificar que el número tenga dos cifras
+    Si num >= 10 Y num <= 99 Entonces
+        // Separar las cifras del número
+        cifra1 = num / 10
+        cifra2 = num mod 10
+        
+        // Calcular el número invertido
+        numeroInvertido = cifra2 * 10 + cifra1
+        
+        // Mostrar el número invertido
+        Escribir "El número invertido es: "  trunc(numeroInvertido)
+    Sino
+        Escribir "El número ingresado no es de dos cifras."
+    FinSi
+FinAlgoritmo

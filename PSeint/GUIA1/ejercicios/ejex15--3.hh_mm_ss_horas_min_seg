@@ -1,0 +1,22 @@
+//. Un ciclista parte de una ciudad A a las HH horas, MM minutos y SS segundos. El tiempo de 
+//viaje hasta llegar a otra ciudad B es de T segundos. Escribir un algoritmo que determine la 
+//	hora de llegada a la ciudad B.
+
+Algoritmo sin_titulo
+	
+	Definir hh, mm, ss, t, llegada, salida, hhl, mml, ssl Como Real
+	
+	Escribir "ingrese hora, minutos y segundos de partida y tiempo de partida en segundos"
+	Leer hh;
+	Leer mm;
+	Leer ss;
+	leer t;
+	
+	salida = (hh * 3600) + (mm * 60) + ss
+	llegada = salida + t
+	hhl = llegada / 3600
+	mml = (llegada mod 3600)/60
+	ssl = llegada mod 60
+	Escribir "la hora de llegada es: -- " trunc(hhl) ":" mml ":" ssl
+
+FinAlgoritmo

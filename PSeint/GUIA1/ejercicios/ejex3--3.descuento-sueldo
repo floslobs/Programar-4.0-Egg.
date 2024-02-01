@@ -1,0 +1,15 @@
+//Hacer un programa que calcule el salario de un empleado, si se descuenta el 20% de su 
+//		salario bruto
+
+Algoritmo sin_titulo
+	
+	Definir salario, descuento Como Real;
+	
+	Escribir "ingrese su salario en bruto"
+	leer salario;
+	
+	descuento = salario - 0.20;
+	
+	escribir "su salario con el descuento del 20% es: " descuento
+	
+FinAlgoritmo

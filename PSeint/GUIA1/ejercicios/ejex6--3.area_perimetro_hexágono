@@ -1,0 +1,25 @@
+//Mostrar el área y perímetro de un hexágono
+
+Algoritmo sin_titulo
+	
+	Definir lado, area, perimetro Como Real
+	
+	Escribir "ingrese la longitud de un lado del exágono"
+	leer lado;
+	
+    Area = (3 * Raiz(3) * L^2) / 2
+    
+ 
+    Perimetro = 6 * L
+    
+  
+    Escribir "El área del hexágono es: "  Area
+    Escribir "El perímetro del hexágono es: "  Perimetro
+
+
+
+
+
+
+
+FinAlgoritmo

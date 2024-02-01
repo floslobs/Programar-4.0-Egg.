@@ -1,0 +1,113 @@
+//Una empresa tiene personal de distintas áreas con distintas condiciones de contratación y 
+//formas de pago. El departamento de contabilidad necesita calcular los sueldos semanales 
+//(lunes a viernes) en base a las 3 modalidades de sueldo: 
+//a) comisión
+//b) salario fijo + comisión, y
+//c) salario fijo
+//a) Para la modalidad salario por comisión se debe ingresar el monto total de las ventas 
+//realizadas en la semana, y el 40% de ese monto total corresponde al salario del 
+//empleado.
+//b) Para la condición de salario fijo + comisión, se debe ingresar el valor que se paga por 
+//hora, la cantidad de horas trabajadas semanalmente y el monto total de las ventas en 
+//esa semana. En este tipo de contrato las horas extras no están contempladas y se fija 
+//como máximo 40 horas por semana. La comisión por las ventas se calcula como 25% 
+//del valor de venta total.
+//c) Finalmente, para la modalidad de salario fijo se debe ingresar el valor que se paga por 
+//hora y la cantidad de horas trabajadas en la semana. En el caso de exceder las 40 
+//horas semanales, las horas extras se deben pagar con un extra del 50% del valor de la 
+//hora. Realizar un menú de opciones para poder elegir el tipo de contrato que tiene un 
+//empleado.
+
+
+Algoritmo sin_titulo
+	
+	Definir op Como entero
+	definir salario, vT, hora, horaS Como Real
+	
+	Escribir "ingrese una modalidad de sueldo"
+	Escribir "     Opcion"
+	Escribir "-- 1.comicion"
+	Escribir "-- 2.salario fijo + comicion"
+	Escribir "-- 3.salario fijo"
+	leer op;
+	
+//	Si op == 1 Entonces
+//		Escribir "ingrese monto total de las ventas realizadas en la semana"
+//		Leer vT;
+//		salario = vT * 0.40
+//		Escribir "el salario semanal es: " salario
+//	SiNo
+//		Si op == 2 Entonces
+//			Escribir "ingrese valor pagado por hora"
+//			leer hora;
+//			Escribir "ingrese cantidad de horas trabajadas en la semana"
+//			leer horaS;
+//			Escribir "ingrese el monto total de las ventas ralizadas en la semana"
+//			leer vT;
+//			 
+//				Si horaS > 40 Entonces
+//					salario = (40 * hora) + (vT * 0.25) 
+//				SiNo
+//					salario = (horaS * hora) + (vT * 0.25)
+//				Fin Si
+//				Escribir "el salario semanal es: " salario
+//	
+//		SiNo
+//			Si op == 3 Entonces
+//				Escribir "ingrese el valor pagado por hora"
+//				leer hora;
+//				Escribir "ingrese cantidad de horas trabajadas en la semana"
+//				leer horaS;
+//				Si horaS > 40 Entonces
+//					salario = (40 * hora) + ((horaS-40) * (hora * 0.50))
+//					
+//				SiNo
+//					sF = horaS * hora
+//					Escribir "el salario semanal es: " salario
+//				Fin Si
+//				
+//			Fin Si
+//			
+//				
+//		FinSi
+//			
+//	Fin Si
+	
+	Segun op Hacer
+		1:
+			Escribir "ingrese monto total de las ventas realizadas en la semana"
+			Leer vT;
+			salario = vT * 0.40
+			Escribir "el salario semanal es: " salario
+		2:
+			Escribir "ingrese valor pagado por hora"
+			leer hora;
+			Escribir "ingrese cantidad de horas trabajadas en la semana"
+			leer horaS;
+			Escribir "ingrese el monto total de las ventas en la semana"
+			leer vT;
+			
+			Si horaS > 40 Entonces
+				salario = (40 * hora) + (vT * 0.25) 
+			SiNo
+				salario = (horaS * hora) + (vT * 0.25)
+			Fin Si
+			Escribir "el salario semanal es: " salario
+			
+		3:
+			Escribir "ingrese el valor pagado por hora"
+			leer hora;
+			Escribir "ingrese cantidad de horas trabajadas en la semana"
+			leer horaS;
+			Si horaS > 40 Entonces
+				salario = (40 * hora) + ((horaS-40) * (hora * 0.50))
+				
+			SiNo
+				sF = horaS * hora
+				Escribir "el salario semanal es: " salario
+			Fin Si
+		De Otro Modo:
+			Escribir "eleccion INCORRECTA"
+	Fin Segun
+	
+FinAlgoritmo

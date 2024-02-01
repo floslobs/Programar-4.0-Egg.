@@ -1,0 +1,14 @@
+//Pide al usuario dos números y muestra la "distancia" entre ellos (el valor absoluto de su 
+//diferencia, de modo que el resultado sea siempre positivo)
+
+Algoritmo sin_titulo
+	
+	Definir n1, n2, distancia Como Real
+	
+	Escribir "ingrese dos numeros para calcular su distancia"
+	Leer n1, n2;
+	
+	distancia = abs(n1-n2)
+	
+	Escribir "la distancia es: -- " distancia
+FinAlgoritmo

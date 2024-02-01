@@ -1,0 +1,17 @@
+//5. Escribir un programa que calcule la suma de los N primeros números naturales. El valor de 
+//N se leerá por teclado
+
+Algoritmo sin_titulo
+	
+	Definir n,num, suma, i Como Entero
+	
+	Escribir "que cantidad de numeros quieres sumar"
+	Leer n
+	suma = 0
+	Para i<- 0 Hasta n - 1 con Paso 1 Hacer
+		num = i + 1
+		suma = suma + num
+	Fin Para
+	
+	Escribir suma
+FinAlgoritmo

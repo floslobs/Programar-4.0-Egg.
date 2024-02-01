@@ -1,0 +1,23 @@
+table,td,th,tr{
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+
+
+}
+
+th.relle{
+   background-color:  #E6F3FF;
+   font-family: Arial
+}
+th{
+    background-color: #c9c6c6;
+}
+.relle{
+    text-align: left;
+    font-family: Arial;
+}
+td.der{
+    background-color:  #FFFFCC;
+}

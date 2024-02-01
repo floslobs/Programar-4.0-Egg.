@@ -1,0 +1,18 @@
+//Crear un programa que solicite al usuario que ingrese el precio de un producto al inicio del 
+//año, y el precio del mismo producto al finalizar el año. El programa debe calcular cuál fue el 
+//porcentaje de aumento que tuvo ese producto en el año y mostrarlo por pantalla.
+
+
+Algoritmo sin_titulo
+	
+	definir pIn, pFi, aumento Como Real;
+	
+	Escribir "ingrese el precio del producto al iniciar el año";
+	Leer pIn;
+	Escribir "ingrese el precio del producto al finalizar el año";
+	Leer pFi;
+	
+	aumento = (pFi / pIn) * 100;
+	
+	 escribir "el porcentaje de aumento que tuvo el producto fue : " aumento "%";
+FinAlgoritmo

@@ -1,0 +1,49 @@
+h1{
+    color:rgb(66, 132, 134) ;
+}
+
+.fllor{
+    color: red;
+}
+
+.destacado{
+    color: rgb(219, 219, 5);
+}
+
+#subtitulo {
+    color: blue;
+    
+}
+
+
+.roji{
+    color: red;
+}
+.flloor{
+    color: blue;
+}
+
+table{
+    border: blue;
+}
+thead{
+    color: rgb(219, 219, 8);
+}
+tfoot{
+    color: rgb(255, 1, 1);
+}
+tbody{
+    color: green;
+}
+.pures{
+    color: rgb(219, 219, 3);
+}
+#adicional {
+    color: rgb(67, 117, 67);
+}
+#especial{
+    color: blueviolet;
+}
+#sol{
+    color: rgb(67, 90, 26);
+}

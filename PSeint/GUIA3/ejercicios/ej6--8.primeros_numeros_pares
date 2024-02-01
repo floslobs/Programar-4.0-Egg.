@@ -1,0 +1,22 @@
+//. Se pide escribir un programa que calcule la suma de los N primeros números pares. Es 
+//decir, si ingresamos el número 5 como valor de N, el algoritmo nos debe realizar la suma 
+//	de los siguientes valores: 2+4+6+8+10. 
+
+Algoritmo sin_titulo
+	
+	Definir suma, num, i, nump Como Entero
+	
+	Escribir "ingrese la la cantidad de los primeros numeros pares q desea ver"
+	Leer num
+	suma = 0
+	i = 1
+	Repetir
+		nump = i * 2
+		suma = suma + nump
+		i = i + 1
+		
+	Mientras Que i <> num
+	Escribir "numeros pares " nump
+	Escribir "la suma de los numeros pares es: -- " suma
+	
+FinAlgoritmo

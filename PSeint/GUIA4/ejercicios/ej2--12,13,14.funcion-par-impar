@@ -1,0 +1,30 @@
+//realizar una función que valide si un número es impar o no. Si es impar la función
+//debe devolver un verdadero, si no es impar debe devolver falso. Nota: la función
+//		no debe tener mensajes 
+//			que digan si es par o no, eso debe pasar en el Algoritmo.
+
+Funcion retorno <- paroNo ( num Por Referencia )
+	Definir retorno Como Logico
+	
+	retorno = (num mod 2 == 0)
+	
+Fin Funcion
+
+
+Algoritmo sin_titulo
+	Definir num Como entero
+	
+	Escribir "ingrese un numero"
+	Leer num
+	
+	
+	
+	Si paroNo(num) Entonces
+		Escribir "el numero es par"
+	SiNo
+		Escribir "el numero es impar"
+	Fin Si
+	
+	
+	
+FinAlgoritmo

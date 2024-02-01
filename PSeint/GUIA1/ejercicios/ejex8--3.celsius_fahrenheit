@@ -1,0 +1,18 @@
+//8. Escribir un programa que convierta un valor dado en grados
+//Fahrenheit a grados Celsius.
+
+
+
+Algoritmo sin_titulo
+	
+	Definir gF, gC Como Real;
+	
+	Escribir "ingrese grados fahrenheit"
+	leer gF;
+	
+	gC = (gF - 32) * 5/9
+	
+	Escribir "su covercion de grados fahrenheit a celsius es: " gC
+ 	
+	
+FinAlgoritmo

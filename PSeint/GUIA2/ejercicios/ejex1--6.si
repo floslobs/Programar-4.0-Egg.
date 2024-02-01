@@ -1,0 +1,34 @@
+//Solicitar al usuario que ingrese un valor entre 1 y 7. EL programa debe mostrar por pantalla 
+//un mensaje que indique a qué día de la semana corresponde. Considere que el número 1 
+//corresponde al día "Lunes", y así sucesivamente
+
+
+Algoritmo sin_titulo
+	
+	Definir dia Como Entero;
+	
+	Escribir "ingrese un valor de 1 a 7";
+	leer dia;
+	
+	Segun dia Hacer
+		1:
+			Escribir "el dia es lunes " 
+		2:
+			Escribir "el dia es martes " 
+		3:
+			Escribir "el dia es miercoles "
+		4:
+			Escribir "el dia es jueves " 
+		5:
+			Escribir "el dia es viernes " 
+		6:
+			Escribir "el dia es sabado " 
+		7:
+			Escribir "el dia es domingo " 
+		De Otro Modo:
+			Escribir "numero de dia INCORRECTO"
+			
+	Fin Segun
+
+	
+FinAlgoritmo

@@ -1,0 +1,22 @@
+//
+//Un vendedor recibe un sueldo base más un 10% extra por comisión de sus ventas, el 
+//vendedor desea saber cuánto dinero obtendrá por concepto de comisiones por las tres 
+//ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo 
+//base y comisiones
+Algoritmo sin_titulo
+	
+	Definir sueldoB, comision, v1, v2, v3, total Como Real
+	
+	Escribir "ingrese su suelso base"
+	Leer sueldoB;
+	Escribir "ingrese sus tres ventas del mes "
+	Leer v1, v2, v3;
+	
+	comision = (v1 + v2 + v3) * 0.10
+	total = sueldoB + comision
+	
+	Escribir "su sueldo base mas la comicion por sus tres ventas del mes es: -- " total
+	
+	
+	
+FinAlgoritmo

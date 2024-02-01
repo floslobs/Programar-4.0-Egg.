@@ -1,0 +1,19 @@
+//Construir un pseudocódigo que permita ingresar un número, si el número es mayor de 
+//	500, se debe calcular y mostrar en pantalla el 18% de este.
+
+Algoritmo sin_titulo
+	
+	definir num, porci Como Real;
+	
+	Escribir "ingrese numero";
+	Leer num;
+	
+	porci = num * 0.18;
+	
+	Si num > 500 Entonces
+		Escribir "el 18 % de su numero es : " porci
+
+	Fin Si
+	
+	
+FinAlgoritmo

@@ -1,0 +1,31 @@
+//Realizar un programa que lea un número entero (tamaño del lado) y a partir de él cree un 
+//cuadrado de asteriscos de ese tamaño. Los asteriscos sólo se verán en el borde del 
+//cuadrado, no en el interior. Por ejemplo, si se ingresa el número 4 se debe mostrar:
+//		* * * * 
+//		*     * 
+//		*     * 
+//		* * * * 
+
+Algoritmo sin_titulo
+	
+	definir lado,i,j Como Entero
+	Escribir "valor de los lados"
+	Leer lado
+	
+	Si lado <= 1 Entonces
+        Escribir "El tamaño del lado debe ser mayor que 1."
+    Sino
+        Para i <- 1 Hasta lado Hacer
+            Para j <- 1 Hasta lado Hacer
+                Si i = 1 O i = lado O j = 1 O j = lado Entonces
+                    Escribir Sin Saltar "* ";
+                Sino
+                    Escribir Sin Saltar"  ";
+                FinSi
+            FinPara
+            Escribir ""  // Salto de línea
+        FinPara
+    FinSi
+	
+		
+FinAlgoritmo

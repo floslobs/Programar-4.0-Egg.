@@ -1,0 +1,19 @@
+//Escribir un programa que calcule el volumen de un cilindro. Para ello se deberá solicitar al 
+//	usuario que ingrese el radio y la altura. Mostrar el resultado por pantalla. 
+//	volumen = ? * radio2 * altura 
+
+Algoritmo sin_titulo
+	Definir radio, altura, volumen Como Real;
+	
+	Escribir "ingrese radio del cilindro";
+	leer radio;
+	Escribir "ingrese altura del cilindro";
+	leer altura;
+	
+	volumen = PI * radio^2 * altura;
+	
+	Escribir " el volumen del cilindro es: " volumen
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,30 @@
+//Escribir una estructura PARA que le solicite al usuario varios números y al finalizar muestre el 
+//	mayor número ingresado.
+
+Algoritmo sin_titulo
+	
+	Definir i, num, numM, cNum Como Entero
+	
+	Escribir "ingrese la cantidad de numeros que quiere ingresar"
+	leer cNum
+	
+	Para i<-1 Hasta cNum Con Paso 1 Hacer
+		
+		Escribir "escriba numero"
+		Leer num
+		
+		Si  i = 1 Entonces
+			
+			numM = num
+			
+		
+		sino 
+			Si num > numM Entonces
+				numM = num
+				
+			Fin Si
+			
+		FinSi
+	Fin Para
+	Escribir "el mayor numero ingresado es: -- " numM
+FinAlgoritmo

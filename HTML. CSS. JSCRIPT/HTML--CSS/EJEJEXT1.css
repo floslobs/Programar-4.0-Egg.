@@ -1,0 +1,21 @@
+#lista{
+    list-style-type:disc ;
+}
+.galle{
+    color: blue;
+}
+.dulce{
+    color: red;
+}
+.salado{
+    color: rgb(116, 116, 17);
+}
+.masas{
+    color: brown;
+}
+#pana{
+    color: rgb(133, 18, 18);
+}
+#tema{
+    color: blueviolet;
+}

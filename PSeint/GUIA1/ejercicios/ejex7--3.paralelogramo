@@ -1,0 +1,20 @@
+//Mostrar el área y perímetro de un paralelogramo.
+
+Algoritmo sin_titulo
+	
+    Escribir"Ingrese la longitud de la base del paralelogramo (base): ";
+    Leer base;
+    Escribir"Ingrese la altura del paralelogramo (altura): ";
+    Leer altura;
+    
+    Area = base * altura;
+    
+    Escribir "Ingrese la longitud del lado 1 del paralelogramo: ";
+    Leer lado1;
+    Escribir "Ingrese la longitud del lado 2 del paralelogramo: ";
+    Leer lado2;
+    
+    Perimetro = 2 * (lado1 + lado2);
+    
+    Escribir "El área del paralelogramo es: " Area;
+    Escribir "El perímetro del paralelogramo es: " Perimetro;

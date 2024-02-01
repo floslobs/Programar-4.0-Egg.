@@ -1,0 +1,23 @@
+//Escriba un programa que valide si una nota está entre 0 y 10, sino está entre 0 y 10 la nota 
+//		se pedirá de nuevo hasta que la nota sea correcta.
+
+Algoritmo sin_titulo
+	
+	Definir  nota Como Real
+	
+	Escribir "ingrese nota"
+	leer nota;
+	
+	Si nota >= 0 y nota <= 10 Entonces
+		Escribir "nota correcta"
+	SiNo
+		Mientras nota < 0 o nota > 10 Hacer
+			Escribir "ingrese nota"
+			leer nota
+		Fin Mientras
+		Escribir "nota correcta"
+	Fin Si
+	
+	
+	
+FinAlgoritmo

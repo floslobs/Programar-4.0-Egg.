@@ -1,0 +1,39 @@
+//. Realizar un algoritmo que lea un número y que muestre su raíz cuadrada y su raíz cúbica. 
+//	PSeInt no tiene ninguna función predefinida que permita calcular la raíz cúbica, ¿Cómo se 
+//	puede calcular
+
+Algoritmo sin_titulo
+	
+	definir num, rais, cubi, aproxInicial, itMax, tolerancia, cubiAnterior, i Como real
+	
+	Escribir "ingrese un numero"
+	Leer num;
+	
+	rais = raiz(num)
+	
+    
+    // Calcular la raíz cúbica mediante el método de Newton-Raphson
+    // Supongamos una aproximación inicial (por ejemplo, 1.0)
+    aproxInicial = 1.0
+    cubi = aproxInicial
+    // Establecer el número máximo de iteraciones (puedes ajustar esto según sea necesario)
+    itMax = 100
+    // Establecer la tolerancia para la convergencia (puedes ajustar esto según sea necesario)
+    tolerancia = 0.0001
+    
+    // Realizar iteraciones para calcular la raíz cúbica
+    Para i = 1 Hasta itMax Hacer
+        cubiAnterior = cubi
+        cubi = (2 * cubi + num / (cubi^2)) / 3.0
+        
+        // Verificar la convergencia utilizando la tolerancia
+        Si Abs(cubi - cubiAnterior) < tolerancia Entonces
+             // Se alcanzó la convergencia
+        FinSi
+    FinPara
+    
+    // Mostrar los resultados
+    Escribir "La raíz cuadrada de "  num  " es: "  rais
+    Escribir "La raíz cúbica de "  num  " es aproximadamente: "  cubi
+
+FinAlgoritmo

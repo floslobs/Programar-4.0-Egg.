@@ -1,0 +1,24 @@
+//Escriba un programa que lea un número entero (altura) y a partir de él cree una escalera 
+//invertida de asteriscos con esa altura. Por ejemplo, si ingresamos una altura de 5 se 
+//deberá mostrar:
+//	***** 
+//	**** 
+//	*** 
+//	** 
+//  *
+
+
+Algoritmo sin_titulo
+	
+	Definir num, i, j Como Entero
+	
+	Escribir "ingrese un numero"
+	leer num
+	Para i<-num Hasta 1 Con Paso -1 Hacer
+		Para j = 1 Hasta i Con Paso 1 hacer 
+			Escribir Sin Saltar "*"
+		FinPara
+		Escribir " "
+	Fin Para
+   
+FinAlgoritmo

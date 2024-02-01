@@ -1,0 +1,25 @@
+
+body{
+    background-color: rgb(129, 190, 129);
+ }
+h1 {
+    font-family:'Times New Roman', Times, serif ; text-align: center;
+    color: rgb(218, 10, 10);
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center; color: rgb(99, 21, 145);
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align:left; color: blue;
+}
+
+a{
+    color: red;
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    color: rgb(107, 104, 104);
+}

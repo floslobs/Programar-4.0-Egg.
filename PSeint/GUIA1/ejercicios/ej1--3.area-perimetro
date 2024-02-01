@@ -1,0 +1,22 @@
+//Solicitar al usuario que ingrese la base y altura de un rectángulo, y calcular y mostrar por 
+//pantalla el área y perímetro del mismo
+//area = base * altura
+//perimetro = 2 * altura + 2 * base
+//
+
+
+Algoritmo sin_titulo
+	
+	definir base, altura, area, perimetro Como Real;
+	
+	Escribir "ingrese la base del rectangulo";
+	Leer base;
+	Escribir "ingrese la altura del resctangulo";
+	leer altura;
+	
+	area = base * altura;
+	perimetro = (2 * altura) + (2 * base);
+	
+	escribir "el area del rectangulo es: " area;
+	Escribir "el perimetro del rectangulo es : " perimetro;
+FinAlgoritmo

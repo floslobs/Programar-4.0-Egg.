@@ -1,0 +1,34 @@
+Funcion retorno <- veces ( cad Por Referencia, letra Por Referencia )
+	
+	definir contador Como Entero
+	Definir i, longCad Como Entero
+	contador = 0
+	longCad = Longitud(cad)
+	Para i = 0 Hasta Longitud(cad) Con Paso 1 Hacer
+		
+			Si Subcadena(cad, i, i) == letra Entonces
+				contador = contador + 1
+			FinSi
+		
+        
+    FinPara
+	 Escribir contador
+Fin Funcion
+
+//
+//Realizar un programa que pida al usuario una frase y una letra a buscar en esa frase.
+//La función debe devolver la cantidad de veces que encontró la letra. Nota: recordar
+//	el uso de la función Subcadena().
+Algoritmo sin_titulo
+	
+	Definir cad , letra  Como Caracter
+	Definir resultado como entero
+	Escribir "ingrese una frase"
+	Leer cad
+	Escribir "ingrese una letra a buscar"
+	leer letra
+	
+	resultado = veces(cad,letra)
+	
+	
+FinAlgoritmo

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="boton">boton</button>
+
+
+    
+    <script src="ej_22.js" type="text/javascript"></script>
+</body>
+</html>
+let boton = document.getElementById("boton");
+
+
+boton.onclick = () => console.log("boton");
+
+let PARRAFO = document.getElementById("parrafoASeleccionar");
+let texto = PARRAFO.innerText;
+let textovalue = texto.split(/[\s,\.,\"]+/);
+
+let marcarTexto = () => (
+  textovalue.forEach((palabra) => {
+    if (palabra.length > 8) {
+      texto = texto.split(palabra).join(`<b style="background-color: yellow">${palabra}</b>`);
+    }
+  }),
+  (PARRAFO.innerHTML = texto)
+);

@@ -1,0 +1,26 @@
+Algoritmo sin_titulo
+	
+	// Declarar variables
+	Definir d1, l Como Real
+	Definir d2, A, P Como Real
+	
+	// Solicitar al usuario que ingrese la longitud de una diagonal y la longitud de un lado
+	Escribir "Ingrese la longitud de una diagonal del rombo:"
+	Leer d1
+	Escribir "Ingrese la longitud de un lado del rombo:"
+	Leer l
+	
+	// Calcular la longitud de la otra diagonal (d2)
+	d2 = Raiz(l^2 - (d1/2)^2)
+	
+	// Calcular el área del rombo
+	A = (d1 * d2) / 2
+	
+	// Calcular el perímetro del rombo
+	P = 4 * l
+	
+	// Mostrar el área y el perímetro
+	Escribir "El área del rombo es:", A
+	Escribir "El perímetro del rombo es:", P
+
+FinAlgoritmo

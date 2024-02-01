@@ -1,0 +1,21 @@
+//Continuando el ejercicio anterior, ahora se pedirá una frase o palabra y se validara si la 
+//	primera letra de la frase es igual a la última letra de la frase. Se deberá de imprimir un 
+//	mensaje por pantalla que diga "CORRECTO", en caso contrario, se deberá imprimir 
+//	"INCORRECTO".
+
+
+Algoritmo sin_titulo
+	Definir fra Como Caracter;
+	definir long Como Entero;
+	
+	Escribir "ingrese frase o palabras ";
+	Leer fra;
+	
+	long = Longitud(fra);
+	
+	Si SubCadena(fra,0,0) == SubCadena(fra,long -1,long-1)  Entonces
+		Escribir "CORRECTO"
+	SiNo
+		Escribir "INCORRECTO"
+	Fin Si
+FinAlgoritmo
