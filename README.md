@@ -128,7 +128,7 @@ Formación orientada al desarrollo Backend utilizando Java y bases de datos.
 
 Formación en tecnologías para el desarrollo de interfaces y aplicaciones web.
 
-![Certificado Frontend](./Certificados/03-frontend.jpg)
+![Certificado Frontend](./certificados/03-frontend.jpg)
 
 ### 4. Programación Full Stack
 
