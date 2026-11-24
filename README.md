@@ -103,7 +103,7 @@ Formación realizada con **Egg Cooperation**, en el marco del programa Argentina
 
 Aprendizaje de los fundamentos y la lógica de programación.
 
-![Certificado Introducción a la Programación](./certificados/01-introduccion-programacion.jpg)
+![Certificado Introducción a la Programación](./Certificados/01-introduccion-programacion.jpg)
 
 ### 2. Backend 2: Java y Base de Datos
 
@@ -116,7 +116,7 @@ Aprendizaje de los fundamentos y la lógica de programación.
 
 Formación orientada al desarrollo Backend utilizando Java y bases de datos.
 
-![Certificado Backend Java y Base de Datos](./certificados/02-backend-java-bases-datos.jpg)
+![Certificado Backend Java y Base de Datos](./Certificados/02-backend-java-bases-datos.jpg)
 
 ### 3. Frontend: HTML + CSS | JavaScript | React
 
@@ -128,7 +128,7 @@ Formación orientada al desarrollo Backend utilizando Java y bases de datos.
 
 Formación en tecnologías para el desarrollo de interfaces y aplicaciones web.
 
-![Certificado Frontend](./certificados/03-frontend.jpg)
+![Certificado Frontend](./Certificados/03-frontend.jpg)
 
 ### 4. Programación Full Stack
 
@@ -142,7 +142,7 @@ Formación en tecnologías para el desarrollo de interfaces y aplicaciones web.
 
 Certificación correspondiente a la formación en Programación Full Stack, con una carga horaria total de 441 horas teóricas y prácticas.
 
-![Certificado Programación Full Stack](./certificados/04-programacion-full-stack.jpg)
+![Certificado Programación Full Stack](./Certificados/04-programacion-full-stack.jpg)
 
 ---
 
